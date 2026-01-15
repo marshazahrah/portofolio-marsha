@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="space-y-8">
           <div className="space-y-4">
             <img
-              src="/profile.jpg"
+              src="/portofolio-marsha/profile.jpg"
               alt="Foto Marsha"
               className="w-48 h-48 rounded-full object-cover mx-auto"
               />
@@ -56,7 +56,7 @@ export default function Hero() {
 
           <div className="flex justify-center space-x-6 pt-4">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/marshazahrah"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-emerald-600 transition-colors"
