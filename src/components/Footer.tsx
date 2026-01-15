@@ -65,7 +65,7 @@ export default function Footer() {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/marsha-zahrah-fatharani"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-emerald-400 transition-colors"
@@ -74,7 +74,7 @@ export default function Footer() {
                 <Linkedin size={24} />
               </a>
               <a
-                href="mailto:your.email@example.com"
+              href="ailto:marshazahrahfatharani@gmail.com"
                 className="text-gray-400 hover:text-emerald-400 transition-colors"
                 aria-label="Email"
               >
