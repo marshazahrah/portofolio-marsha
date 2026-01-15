@@ -7,7 +7,7 @@ export default function Projects() {
       description:
         'Mengembangkan desain UI/UX aplikasi kesehatan fisik Healthio menggunakan metode Human-Centered Design (HCD), mencakup proses riset pengguna, perancangan alur dan antarmuka, pembuatan wireframe hingga prototype, serta pengujian kegunaan dan tampilan aplikasi.',
       tags: ['UI/UX','Human Centered Design', 'Problem Solving','Figma','Draw.io','Usability Testing'],
-      image: '/projects/healthio.png',
+      image: 'healthio.png',
       liveUrl: 'https://www.figma.com/design/rwZJu80a51E2ynJz20Xmyv/Healthio?node-id=0-1&t=mNKsc31zfrYh8o9E-1',
       //githubUrl DIHAPUS/TIDAK ADA
     },
@@ -16,7 +16,7 @@ export default function Projects() {
       description:
         'Mengembangkan aplikasi mobile ArtIst bersama tim sebagai platform etalase karya digital bagi artist dan digital creator. Aplikasi ini memungkinkan pengguna mengunggah karya, berinteraksi melalui fitur like dan komentar, serta membagikan profil. Selain itu, tersedia fitur auto-generate caption untuk membantu penyajian karya agar lebih menarik dan informatif.',
       tags: ['Kotlin', 'Firebase', 'AndroidStudio', 'CHATGPT API', 'Draw.io'],
-      image: '/projects/poster_artist.png',
+      image: 'poster_artist.jpg',
       liveUrl: 'https://youtu.be/X96tlbbVA8M?si=RZ5sMK7wDG70aP1n',
       githubUrl: 'https://github.com/naelafauzul/ArtIs',
     },
