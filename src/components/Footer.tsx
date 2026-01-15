@@ -56,7 +56,7 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Connect</h4>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/marshazahrah"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-emerald-400 transition-colors"
