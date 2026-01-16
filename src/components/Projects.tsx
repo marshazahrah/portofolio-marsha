@@ -35,7 +35,7 @@ export default function Projects() {
         'Mengembangkan game simulasi memasak 2D Dish Dash bersama tim (Synergy) dengan elemen kompetisi dan tantangan berbatas waktu. Berkontribusi dalam perancangan konsep dan gameplay, implementasi alur permainan seperti tutorial, sistem resep, dan manajemen waktu, serta melakukan pengujian dan deployment menggunakan Unity untuk memastikan game berjalan sesuai konsep dan memberikan pengalaman bermain yang imersif.',
       tags: ['Game Design', 'Unity'],
       image: 'postergim.png',
-      liveUrl: 'https://example.com',
+      //liveUrl: DiHAPUS
       //githubUrl DIHAPUS/TIDAK ADA
     },
     {
@@ -91,6 +91,7 @@ export default function Projects() {
                   className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-emerald-600 opacity-0 group-hover:opacity-90 transition-opacity flex items-center justify-center space-x-4">
+                  {project.liveUrl && (
                   <a
                     href={project.liveUrl}
                     target="_blank"
@@ -100,6 +101,7 @@ export default function Projects() {
                   >
                     <ExternalLink size={20} />
                   </a>
+                  )}
                   {project.githubUrl && (
               <a
                 href={project.githubUrl}
