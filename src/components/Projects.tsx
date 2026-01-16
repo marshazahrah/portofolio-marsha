@@ -45,7 +45,7 @@ export default function Projects() {
       tags: ['ERD', 'SQL', 'Project-based Learning','Data Visualization'],
       image: 'cerdimaju1.png',
       liveUrl: 'https://www.youtube.com/watch?v=2q42H8svDvQ',
-      githubUrl: 'https://github.com',
+      //githubUrl DIHAPUS/TIDAK ADA
     },
     {
       title: 'SocialMusic',
@@ -62,7 +62,7 @@ export default function Projects() {
         'Merancang UI/UX aplikasi Nakia bersama tim (Interbrand) sebagai platform pengaduan berbasis mobile bagi perempuan korban diskriminasi dan kekerasan seksual. Rancangan difokuskan pada kemudahan pelaporan, penyampaian informasi, serta akses fitur edukasi melalui alur dan antarmuka yang sederhana, aman, dan berpusat pada kebutuhan pengguna.',
       tags: ['Design Thinking', 'UI Design', 'Wireframing', 'Prototyping'],
       image: 'nakia.png',
-      liveUrl: 'https://link-demo-atau-figma-atau-youtube',
+      //liveUrl DIHAPUS/TIDAK ADA
       //githubUrl DIHAPUS/TIDAK ADA
       },
   ];
