@@ -24,10 +24,19 @@ export default function Projects() {
       title: 'Sistem Informasi Kependudukan',
       description:
         'Melakukan redesign antarmuka Sistem Informasi Kependudukan Desa dalam kegiatan KKN untuk meningkatkan kerapian, keterbacaan, dan kemudahan penggunaan. Berkontribusi dalam penyusunan struktur data kependudukan, input dan validasi data warga menggunakan Microsoft Excel, serta penyesuaian format data agar siap digunakan dan dikelola oleh perangkat desa.',
-      tags: ['UI Design', 'Figma', 'Design System','Prototyping','Microsoft Excel'],
+      tags: ['UI Design', 'Figma', 'Design System','Prototyping','Microsoft Excel','Google Forms'],
       image: 'sik.png',
       liveUrl: 'https://www.figma.com/design/PQhAqqwH0Xe0MmvAzENwH1/Prototype-SIK?node-id=0-1&t=AgqWptqXFmPj270R-1',
       //githubUrl DIHAPUS/TIDAK ADA
+    },
+    {
+      title: 'Foozy - UI/UX Design Portfolio',
+      description:
+      'Foozy merupakan portofolio desain UI aplikasi pemesanan makanan yang menampilkan alur pengguna mulai dari pencarian restoran, eksplorasi menu, detail makanan, hingga proses pemesanan. Desain difokuskan pada kemudahan navigasi, kejelasan informasi menu, serta tampilan visual yang konsisten dan menarik. Portofolio ini menyoroti perancangan user flow, layout antarmuka, serta pendekatan desain yang berorientasi pada pengalaman pengguna.',
+      tags: ['UI/UX Design', 'Figma', 'Prototyping'],
+      image: 'foozy.png',
+      liveUrl: 'https://www.figma.com/design/F93Tt5734kPgX4K0BKufSf/Portofolio-Foozy?node-id=0-1&t=tkYxvSLpxfli7ojt-1',
+      // githubUrl DIHAPUS/TIDAK ADA
     },
     {
       title: 'Dish Dash',
