@@ -84,15 +84,15 @@ export default function Skills() {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="text-center">
               <div className="text-4xl font-bold text-emerald-600 mb-2">5+</div>
-              <p className="text-gray-600">Academic & Personal Projects</p>
+              <p className="text-gray-600">Academic Projects Completed</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-emerald-600 mb-2">10+</div>
-              <p className="text-gray-600">Test Cases Created</p>
+              <div className="text-4xl font-bold text-emerald-600 mb-2">1+</div>
+              <p className="text-gray-600">Personal Portfolio Project</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-emerald-600 mb-2">3+</div>
-              <p className="text-gray-600">UI/UX Case Studies</p>
+              <div className="text-4xl font-bold text-emerald-600 mb-2">2+</div>
+              <p className="text-gray-600">Volunteer Experiences</p>
             </div>
           </div>
         </div>
