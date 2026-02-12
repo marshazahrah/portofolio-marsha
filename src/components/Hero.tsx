@@ -24,7 +24,7 @@ export default function Hero() {
               <span className="text-emerald-600">Marsha Zahrah Fatharani</span>
             </h1>
             <p className="text-2xl sm:text-3xl text-gray-600 font-light">
-              Quality Assurance & UI Designer
+              UI/UX Designer & Quality Assurance Enthusiast
             </p>
             <p className="text-lg sm:text-xl text-gray-500 max-w-2xl mx-auto">
               Here, you can find several projects I have previously worked on.
