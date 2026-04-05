@@ -12,13 +12,14 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              Fresh graduate dengan keterlibatan dalam beragam proyek pengembangan sistem informasi selama masa perkuliahan, mencakup pengembangan aplikasi mobile, website, game 2D, dan desain UI/UX aplikasi. 
+              Fresh graduate jurusan Informatika dengan pengalaman akademik dalam berbagai proyek pengembangan sistem informasi selama masa perkuliahan, termasuk pengembangan aplikasi mobile, website, game 2D, serta desain UI/UX. 
+              Memiliki pengalaman mengerjakan proyek baik secara individu maupun dalam tim, serta memahami alur pengembangan sistem dan aplikasi mulai dari analisis kebutuhan, perancangan sistem, implementasi dasar, hingga pengujian. 
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Terlibat dalam proses desain mulai dari riset kebutuhan, pembuatan wireframe, prototyping, hingga usability testing untuk memastikan solusi yang intuitif dan mudah digunakan. Selain UI/UX, memiliki pengalaman dalam pengembangan aplikasi mobile, website, serta proyek sederhana seperti game 2D. Terbiasa mengikuti alur pengembangan sistem mulai dari analisis kebutuhan, perancangan, implementasi, hingga pengujian. 
+              Memiliki minat yang kuat pada bidang UI Design dan Quality Assurance, dengan pengalaman dalam merancang antarmuka yang terstruktur dan mudah digunakan, melakukan pengujian fungsional serta usability testing untuk memastikan kualitas dan stabilitas aplikasi, serta membantu dalam penyusunan dokumentasi sistem.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Mampu berpikir analitis, teliti dalam setiap tahapan pekerjaan, serta bertanggung jawab dalam menyelesaikan tugas hingga tuntas. Pengalaman proyek selama kuliah mendukung kemampuan bekerja secara efektif dalam tim maupun secara mandiri.
+              kemampuan berpikir analitis, teliti dalam setiap tahapan pekerjaan, serta bertanggung jawab dalam menyelesaikan tugas. Pengalaman proyek selama perkuliahan juga mendukung kemampuan bekerja secara efektif baik secara mandiri maupun kolaboratif dalam tim.
             </p>
           </div>
 
