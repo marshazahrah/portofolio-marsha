@@ -9,8 +9,8 @@ export default function Skills() {
     },
     {
       icon: Layout,
-      title: 'Design Tools',
-      skills: ['Figma', 'Canva', 'Draw.io'],
+      title: 'Tools',
+      skills: ['VsCode','Figma', 'Canva', 'Draw.io','Trello'],
     },
     {
       icon: Database,
