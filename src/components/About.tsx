@@ -19,7 +19,7 @@ export default function About() {
               Memiliki minat yang kuat pada bidang UI Design dan Quality Assurance, dengan pengalaman dalam merancang antarmuka yang terstruktur dan mudah digunakan, melakukan pengujian fungsional serta usability testing untuk memastikan kualitas dan stabilitas aplikasi, serta membantu dalam penyusunan dokumentasi sistem.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              kemampuan berpikir analitis, teliti dalam setiap tahapan pekerjaan, serta bertanggung jawab dalam menyelesaikan tugas. Pengalaman proyek selama perkuliahan juga mendukung kemampuan bekerja secara efektif baik secara mandiri maupun kolaboratif dalam tim.
+              Memiliki kemampuan berpikir analitis, teliti dalam setiap tahapan pekerjaan, serta bertanggung jawab dalam menyelesaikan tugas. Pengalaman proyek selama perkuliahan juga mendukung kemampuan bekerja secara efektif baik secara mandiri maupun kolaboratif dalam tim.
             </p>
           </div>
 
