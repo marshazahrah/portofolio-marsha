@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Heart } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Marsha Zahrah Fatharani</h3>
             <p className="text-gray-400">
-              Informatics Graduate | UI/UX & Quality Assurance Enthusiast
+              Informatics Graduate | Designing, Building, and Improving Digital Experiences.
             </p>
           </div>
 
