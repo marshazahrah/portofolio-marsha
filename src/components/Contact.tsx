@@ -1,28 +1,6 @@
-import { Mail, MapPin, MessageCircle, Send } from 'lucide-react';
-import { useState } from 'react';
+import { Mail, MapPin, MessageCircle  } from 'lucide-react';
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! This is a demo - connect this to your preferred email service.');
-    setFormData({ name: '', email: '', message: '' });
-  };
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
 
   return (
     <section id="contact" className="py-20 bg-gray-50">
@@ -31,11 +9,12 @@ export default function Contact() {
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
           <div className="w-20 h-1 bg-emerald-600 mx-auto mb-4"></div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            I am open to full-time opportunities, internships, and project collaborations in UI/UX and Quality Assurance.
+            I'm open to full-time opportunities, internships, and project collaborations. Feel free to reach out!
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="max-w-2xl mx-auto">
+          <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">
@@ -92,26 +71,26 @@ export default function Contact() {
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-emerald-500 rounded-full mr-3 mt-2"></span>
                   <span className="text-gray-600">
-                    Detail-oriented with a strong focus on usability, ensuring intuitive and user-friendly solutions
+                    Responsible and organized in managing tasks and meeting deadlines.
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-emerald-500 rounded-full mr-3 mt-2"></span>
                   <span className="text-gray-600">
-                    Experienced in combining UI/UX design and quality assurance to deliver functional and well-tested products
+                    Able to work effectively both independently and in a team.
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-emerald-500 rounded-full mr-3 mt-2"></span>
                   <span className="text-gray-600">
-                    Highly adaptable, collaborative, and eager to continuously learn and improve in dynamic environments
+                    Enthusiastic about learning new skills and taking on new challenges.
                   </span>
                 </li>
               </ul>
             </div>
           </div>
 
-          
+          </div>
         </div>
       </div>
     </section>

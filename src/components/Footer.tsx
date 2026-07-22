@@ -74,7 +74,7 @@ export default function Footer() {
                 <Linkedin size={24} />
               </a>
               <a
-              href="ailto:marshazahrahfatharani@gmail.com"
+              href="mailto:marshazahrahfatharani@gmail.com"
                 className="text-gray-400 hover:text-emerald-400 transition-colors"
                 aria-label="Email"
               >
@@ -87,7 +87,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400 flex items-center justify-center">
             by Marsha Zahrah Fatharani
-            &copy; {currentYear}
+            © {currentYear}
           </p>
         </div>
       </div>

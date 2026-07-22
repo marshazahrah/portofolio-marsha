@@ -1,4 +1,4 @@
-import { Briefcase, GraduationCap, Heart } from 'lucide-react';
+import { Briefcase, GraduationCap } from 'lucide-react';
 
 export default function About() {
   return (
@@ -12,14 +12,18 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              Fresh graduate jurusan Informatika dengan pengalaman akademik dalam berbagai proyek pengembangan sistem informasi selama masa perkuliahan, termasuk pengembangan aplikasi mobile, website, game 2D, serta desain UI/UX. 
-              Memiliki pengalaman mengerjakan proyek baik secara individu maupun dalam tim, serta memahami alur pengembangan sistem dan aplikasi mulai dari analisis kebutuhan, perancangan sistem, implementasi dasar, hingga pengujian. 
+              Fresh graduate jurusan Informatika dengan pengalaman akademik dalam berbagai proyek pengembangan 
+              sistem informasi selama masa perkuliahan, termasuk pengembangan aplikasi mobile, website, game 2D, 
+              serta desain UI/UX. Berpengalaman mengerjakan proyek baik secara individu maupun dalam tim, serta 
+              memahami alur pengembangan sistem dan aplikasi mulai dari analisis kebutuhan, perancangan, 
+              implementasi, hingga pengujian. 
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Memiliki minat yang kuat pada bidang UI Design dan Quality Assurance, dengan pengalaman dalam merancang antarmuka yang terstruktur dan mudah digunakan, melakukan pengujian fungsional serta usability testing untuk memastikan kualitas dan stabilitas aplikasi, serta membantu dalam penyusunan dokumentasi sistem.
-            </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              Memiliki kemampuan berpikir analitis, teliti dalam setiap tahapan pekerjaan, serta bertanggung jawab dalam menyelesaikan tugas. Pengalaman proyek selama perkuliahan juga mendukung kemampuan bekerja secara efektif baik secara mandiri maupun kolaboratif dalam tim.
+              Terbiasa merancang solusi digital, menyusun dokumentasi, serta melakukan pengujian untuk memastikan 
+              kualitas dan fungsionalitas sistem. Selain itu, mampu menangani berbagai tugas administratif, 
+              seperti mengelola dokumen dan menyusun laporan. Memiliki kemampuan berpikir analitis, teliti dalam 
+              setiap tahapan pekerjaan, cepat beradaptasi, serta mampu bekerja secara efektif baik secara mandiri 
+              maupun kolaboratif dalam tim.
             </p>
           </div>
 
@@ -33,7 +37,7 @@ export default function About() {
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Education</h3>
                   <p className="text-gray-600">
                     <span className="font-semibold text-gray-600">
-                      Bachelor of Informatics
+                      Bachelor of Informatics | GPA: 3.57/4.00
                     </span>
                      <p className="text-sm text-gray-500">
                        Sep 2021 – Dec 2025
@@ -52,16 +56,18 @@ export default function About() {
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Volunteer</h3>
                   <p className="font-semibold text-gray-600 mt-1">
-                    PORSEMATIK 2022
+                    Staf Divisi Kesehatan - PORSEMATIK 2022
                   </p>
                   <p className="text-sm text-gray-500">
-                    Staf Divisi Kesehatan
+                    Bertanggung jawab dalam melakukan pemeriksaan kesehatan, memberikan pertolongan pertama, 
+                    serta memastikan kesiapan fasilitas dan kebutuhan medis selama kegiatan berlangsung.
                   </p>
                   <p className="font-semibold text-gray-600 mt-1">
-                    INPUT 2023
+                    Staf Komisi B - INPUT 2023
                   </p>
                   <p className="text-sm text-gray-500">
-                    Staf Komisi B
+                    Berperan dalam penyusunan aturan, SOP, dan pedoman kedisiplinan kegiatan, serta melakukan 
+                    koordinasi monitoring dan evaluasi untuk mendukung kelancaran acara.
                   </p>
                 </div>
               </div>
