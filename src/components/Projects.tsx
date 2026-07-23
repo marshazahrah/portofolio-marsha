@@ -3,19 +3,28 @@ import { ExternalLink, Github } from 'lucide-react';
 export default function Projects() {
   const projects = [
     {
-      title: 'Healthio',
+      title: 'Healthio - UI/UX Aplikasi Kesehatan Fisik',
       description:
         'Mengembangkan desain UI/UX aplikasi kesehatan fisik Healthio menggunakan metode Human-Centered Design (HCD), mencakup proses riset pengguna, perancangan alur dan antarmuka, pembuatan wireframe hingga prototype, serta pengujian kegunaan dan tampilan aplikasi.',
-      tags: ['UI/UX','Human Centered Design', 'Problem Solving','Figma','Draw.io','Usability Testing'],
+      tags: ['UI/UX','Wireframing', 'Human Centered Design', 'Problem Solving','Attention to Detail','Figma','Draw.io','Usability Testing'],
       image: 'healthio.png',
       liveUrl: 'https://www.figma.com/design/rwZJu80a51E2ynJz20Xmyv/Healthio?node-id=0-1&t=mNKsc31zfrYh8o9E-1',
+      //githubUrl DIHAPUS/TIDAK ADA
+    },
+    {
+      title: 'SauceDemo – Manual Testing Website E-Commerce',
+      description:
+        'Melakukan manual testing pada aplikasi web menggunakan metode Black Box Testing, mulai dari analisis kebutuhan, penyusunan test case, eksekusi pengujian, hingga pembuatan bug report dan test summary report.',
+      tags: ['Test Case Design','Bug Reporting', 'Software Quality Assurane','Attention to Detail','Analycal Thinking'],
+      image: 'saucedemo.png',
+      liveUrl: 'https://app.notion.com/p/Project-1-SauceDemo-Manual-Testing-39c17e38d270803c9472de61e3b5e484?source=copy_link',
       //githubUrl DIHAPUS/TIDAK ADA
     },
     {
       title: 'ArtIst',
       description:
         'Mengembangkan aplikasi mobile ArtIst bersama tim sebagai platform etalase karya digital bagi artist dan digital creator. Aplikasi ini memungkinkan pengguna mengunggah karya, berinteraksi melalui fitur like dan komentar, serta membagikan profil. Selain itu, tersedia fitur auto-generate caption untuk membantu penyajian karya agar lebih menarik dan informatif.',
-      tags: ['Kotlin', 'Firebase', 'AndroidStudio', 'CHATGPT API', 'Draw.io'],
+      tags: ['Kotlin', 'Firebase', 'AndroidStudio', 'CHATGPT API', 'Draw.io', 'Teamwork', 'Creativity', 'Attention to Detail'],
       image: 'poster_artist.jpg',
       liveUrl: 'https://youtu.be/X96tlbbVA8M?si=RZ5sMK7wDG70aP1n',
       githubUrl: 'https://github.com/naelafauzul/ArtIs',
@@ -24,7 +33,7 @@ export default function Projects() {
       title: 'Sistem Informasi Kependudukan',
       description:
         'Melakukan redesign antarmuka Sistem Informasi Kependudukan Desa dalam kegiatan KKN untuk meningkatkan kerapian, keterbacaan, dan kemudahan penggunaan. Berkontribusi dalam penyusunan struktur data kependudukan, input dan validasi data warga menggunakan Microsoft Excel, serta penyesuaian format data agar siap digunakan dan dikelola oleh perangkat desa.',
-      tags: ['UI Design', 'Figma', 'Design System','Prototyping','Microsoft Excel','Google Forms'],
+      tags: ['UI Design', 'Figma', 'Design System','Prototyping','Microsoft Excel','Google Forms', 'Collaboration', 'Attention to Detail', 'Problem Solving'],
       image: 'sik.png',
       liveUrl: 'https://www.figma.com/design/PQhAqqwH0Xe0MmvAzENwH1/Prototype-SIK?node-id=0-1&t=AgqWptqXFmPj270R-1',
       //githubUrl DIHAPUS/TIDAK ADA
@@ -33,7 +42,7 @@ export default function Projects() {
       title: 'Foozy - UI/UX Design Portfolio',
       description:
       'Foozy merupakan portofolio desain UI aplikasi pemesanan makanan yang menampilkan alur pengguna mulai dari pencarian restoran, eksplorasi menu, detail makanan, hingga proses pemesanan. Desain difokuskan pada kemudahan navigasi, kejelasan informasi menu, serta tampilan visual yang konsisten dan menarik. Portofolio ini menyoroti perancangan user flow, layout antarmuka, serta pendekatan desain yang berorientasi pada pengalaman pengguna.',
-      tags: ['UI/UX Design', 'Figma', 'Prototyping'],
+      tags: ['UI/UX Design', 'Figma', 'Prototyping', 'Creativity'],
       image: 'foozy.png',
       liveUrl: 'https://www.figma.com/design/F93Tt5734kPgX4K0BKufSf/Portofolio-Foozy?node-id=0-1&t=tkYxvSLpxfli7ojt-1',
       // githubUrl DIHAPUS/TIDAK ADA
@@ -42,7 +51,7 @@ export default function Projects() {
       title: 'Dish Dash',
       description:
         'Mengembangkan game simulasi memasak 2D Dish Dash bersama tim (Synergy) dengan elemen kompetisi dan tantangan berbatas waktu. Berkontribusi dalam perancangan konsep dan gameplay, implementasi alur permainan seperti tutorial, sistem resep, dan manajemen waktu, serta melakukan pengujian dan deployment menggunakan Unity untuk memastikan game berjalan sesuai konsep dan memberikan pengalaman bermain yang imersif.',
-      tags: ['Game Design', 'Unity'],
+      tags: ['C#', 'Game Development', 'Game Design', 'Unity'],
       image: 'postergim.png',
       //liveUrl: DiHAPUS
       //githubUrl DIHAPUS/TIDAK ADA
@@ -51,7 +60,7 @@ export default function Projects() {
       title: 'Cerdimaju x Purwacaraka',
       description:
         'Mengembangkan konsep sistem informasi pengelolaan keuangan untuk Purwacaraka bersama tim (Co-Elite) guna mendukung pengelolaan usaha yang lebih terstruktur. Berkontribusi dalam perancangan fitur pencatatan pendapatan dan pengeluaran, pembuatan laporan keuangan, serta penyusunan konsep sistem dan dokumentasi proyek sesuai kebutuhan pengguna.',
-      tags: ['ERD', 'SQL', 'Project-based Learning','Data Visualization'],
+      tags: ['ERD', 'SQL', 'Project-based Learning','Data Visualization', 'System Analysis', 'Teamwork', 'Analycal Thinking', 'Attention to Detail'],
       image: 'cerdimaju1.png',
       liveUrl: 'https://www.youtube.com/watch?v=2q42H8svDvQ',
       //githubUrl DIHAPUS/TIDAK ADA
