@@ -5,17 +5,18 @@ export default function Skills() {
     {
       icon: Code,
       title: 'Technical Skills',
-      skills: ['Usability Testing', 'Manual Testing & Test Case Design', 'Basic Frontend Development'],
+      skills: ['Usability Testing', 'Manual Testing & Test Case Design', 'System Analysis', 'Documentation',
+        'Basic Frontend Development'],
     },
     {
       icon: Layout,
       title: 'Tools',
-      skills: ['VsCode','Figma', 'Canva', 'Draw.io','Trello'],
+      skills: ['Visual StudioCode','Android Studio', 'Figma', 'Canva', 'Draw.io','Github'],
     },
     {
       icon: Database,
       title: 'Technologies',
-      skills: ['UI/UX', 'HTML', 'CSS','JavaScript (Basic)']
+      skills: ['UI/UX', 'HTML', 'CSS','JavaScript (Basic)', 'SQL (Basic)']
     },
     {
       icon: Palette,
@@ -25,12 +26,12 @@ export default function Skills() {
     {
     icon: Rocket,
     title: 'Productivity Tools',
-    skills: ['Microsoft Word', 'Microsoft Excel', 'Microsoft PowerPoint', 'Google Workspace (Docs, Sheets, Slides)'],
+    skills: ['Microsoft Word', 'Microsoft Excel', 'Microsoft PowerPoint', 'Google Workspace (Docs, Sheets, Slides)', 'Notion'],
     },
     {
       icon: Users,
       title: 'Soft Skills',
-      skills: ['Communication', 'Teamwork', 'Willing to learn', 'Attention to detail', 'Problem Solving'],
+      skills: ['Communication', 'Teamwork', 'Willing to learn', 'Attention to detail', 'Problem Solving', 'Adaptable', 'Time Management'],
     },
   ];
 
